@@ -1,0 +1,7 @@
+interface:
+  display_name: "Lean TDD"
+  short_description: "低 token、可組合的垂直切片測試驅動開發流程與紀律"
+  default_prompt: "Use $lean-tdd to implement the current behavior test-first at an agreed seam."
+
+policy:
+  allow_implicit_invocation: true
