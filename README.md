@@ -20,7 +20,7 @@ cd lean-tdd
 ./scripts/install.sh
 ```
 
-預設安裝到 `${CODEX_HOME:-$HOME/.codex}/skills/lean-tdd`。如果目的地已存在，安裝程式會先建立時間戳備份。安裝後請重新啟動 Codex，讓新的 skill inventory 生效。
+預設安裝到 `${CODEX_HOME:-$HOME/.codex}/skills/lean-tdd`。如果目的地已存在，安裝程式會先在 `${CODEX_HOME:-$HOME/.codex}/skill-backups/` 建立時間戳備份，避免備份被 Codex 當成另一個 skill 載入。安裝後請重新啟動 Codex，讓新的 skill inventory 生效。
 
 ## 使用
 
